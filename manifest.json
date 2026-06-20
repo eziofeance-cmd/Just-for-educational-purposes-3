@@ -1,40 +1,40 @@
 {
   "name": "ClaudeProviders",
-  "description": "Reliable movie & TV stream providers",
-  "version": "1.0.0",
+  "description": "Reliable movie and TV stream providers",
+  "version": "1.0.1",
   "providers": [
     {
-      "id": "vidsrc",
+      "id": "claude_vidsrc",
       "name": "VidSrc",
-      "description": "Multi-source stream aggregator via vidsrc.to",
-      "version": "1.0.0",
+      "description": "vidsrc.to streams",
+      "version": "1.0.1",
       "file": "vidsrc.js",
       "enabled": true,
       "types": ["movie", "tv"]
     },
     {
-      "id": "superembed",
+      "id": "claude_superembed",
       "name": "SuperEmbed",
-      "description": "SuperEmbed stream provider",
-      "version": "1.0.0",
+      "description": "superembed.stream streams",
+      "version": "1.0.1",
       "file": "superembed.js",
       "enabled": true,
       "types": ["movie", "tv"]
     },
     {
-      "id": "embedsu",
+      "id": "claude_embedsu",
       "name": "EmbedSu",
-      "description": "embed.su multi-quality stream provider",
-      "version": "1.0.0",
+      "description": "embed.su streams",
+      "version": "1.0.1",
       "file": "embedsu.js",
       "enabled": true,
       "types": ["movie", "tv"]
     },
     {
-      "id": "autoembed",
+      "id": "claude_autoembed",
       "name": "AutoEmbed",
-      "description": "autoembed.cc stream provider",
-      "version": "1.0.0",
+      "description": "autoembed.cc streams",
+      "version": "1.0.1",
       "file": "autoembed.js",
       "enabled": true,
       "types": ["movie", "tv"]
