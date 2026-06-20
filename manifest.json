@@ -1,43 +1,55 @@
 {
   "name": "ClaudeProviders",
   "description": "Reliable movie and TV stream providers",
-  "version": "1.0.1",
-  "providers": [
+  "version": "1.0.0",
+  "scrapers": [
     {
       "id": "claude_vidsrc",
       "name": "VidSrc",
-      "description": "vidsrc.to streams",
-      "version": "1.0.1",
-      "file": "vidsrc.js",
+      "description": "Multi-source stream aggregator via vidsrc.to",
+      "version": "1.0.0",
+      "author": "Claude",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "vidsrc.js",
       "enabled": true,
-      "types": ["movie", "tv"]
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["en"]
     },
     {
       "id": "claude_superembed",
       "name": "SuperEmbed",
-      "description": "superembed.stream streams",
-      "version": "1.0.1",
-      "file": "superembed.js",
+      "description": "SuperEmbed stream provider for movies and TV shows",
+      "version": "1.0.0",
+      "author": "Claude",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "superembed.js",
       "enabled": true,
-      "types": ["movie", "tv"]
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["en"]
     },
     {
       "id": "claude_embedsu",
       "name": "EmbedSu",
-      "description": "embed.su streams",
-      "version": "1.0.1",
-      "file": "embedsu.js",
+      "description": "embed.su multi-quality stream provider",
+      "version": "1.0.0",
+      "author": "Claude",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "embedsu.js",
       "enabled": true,
-      "types": ["movie", "tv"]
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["en"]
     },
     {
       "id": "claude_autoembed",
       "name": "AutoEmbed",
-      "description": "autoembed.cc streams",
-      "version": "1.0.1",
-      "file": "autoembed.js",
+      "description": "autoembed.cc stream provider",
+      "version": "1.0.0",
+      "author": "Claude",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "autoembed.js",
       "enabled": true,
-      "types": ["movie", "tv"]
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["en"]
     }
   ]
-}
+    }
